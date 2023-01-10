@@ -3,9 +3,9 @@
 <html>
   <head>
     <title>Job Board</title>
-        <link> <a rel="stylesheet"></a>  <a href="{{url_for('jobs', filename='static/css/bulma.min.css')}}"></a> </link>
-        <link> <a href="{{url_for('jobs', filename='static/css/app.css')}}"></a> </link>
-        <link> <a href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"></a> </link>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bulma.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">        
   </head>
   <body>
     <div class="container top">
